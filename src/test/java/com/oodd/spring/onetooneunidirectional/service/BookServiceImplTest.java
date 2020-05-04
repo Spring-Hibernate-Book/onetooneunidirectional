@@ -11,7 +11,6 @@ import org.springframework.test.context.transaction.TransactionConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.oodd.spring.onetooneunidirectional.dto.BookDto;
-import com.oodd.spring.standalone.dto.ProductDto;
 @RunWith( SpringJUnit4ClassRunner.class )
 @ContextConfiguration( locations = { "classpath:context.xml" } )
 @TransactionConfiguration( defaultRollback = true )
